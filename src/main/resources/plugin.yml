@@ -7,7 +7,7 @@ commands:
     description: Become Hulk!
     usage: /<command>
   spiderman:
-    description: Become Spiderman
+    description: Become me.peakim.Heroes.Superman.Spiderman
     usage: /<command>
   Marveldc-reload:
     description: reload plugin

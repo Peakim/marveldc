@@ -1,4 +1,4 @@
-package me.peakim.marveldc.Hulk;
+package me.peakim.Heroes.Hulk;
 
 import com.destroystokyo.paper.event.player.PlayerJumpEvent;
 import org.bukkit.Color;

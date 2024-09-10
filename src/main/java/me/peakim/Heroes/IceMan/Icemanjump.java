@@ -1,9 +1,8 @@
-package me.peakim.marveldc.IceMan;
+package me.peakim.Heroes.IceMan;
 
 import me.peakim.marveldc.Marveldc;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
-import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;

@@ -1,4 +1,4 @@
-package me.peakim.marveldc;
+package me.peakim.Events;
 
 import com.destroystokyo.paper.event.player.PlayerJumpEvent;
 import org.bukkit.Bukkit;
@@ -23,7 +23,7 @@ public class itemdrop implements Listener {
 
         Player player = event.getEntity();
         PlayerInventory inventory = player.getInventory();
-        if (player.hasPermission("Superman.use") && player.hasPermission("hulk.use")) {
+        if (player.hasPermission("me.peakim.Heroes.Superman.use") && player.hasPermission("hulk.use")) {
 
         // حذف آیتم‌های درون اسلات آرمور
         for (ItemStack armorItem : inventory.getArmorContents()) {

@@ -1,4 +1,4 @@
-package Spiderman;
+package me.peakim.Heroes.Spiderman;
 
 import me.peakim.marveldc.Marveldc;
 import org.bukkit.ChatColor;
@@ -11,7 +11,6 @@ import org.bukkit.entity.Player;
 
 import java.util.HashMap;
 import java.util.UUID;
-import java.util.Vector;
 
 public class Mainspiderman implements CommandExecutor {
 

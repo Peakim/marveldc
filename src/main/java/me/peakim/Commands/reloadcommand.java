@@ -1,5 +1,6 @@
-package me.peakim.marveldc;
+package me.peakim.Commands;
 
+import me.peakim.marveldc.Marveldc;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

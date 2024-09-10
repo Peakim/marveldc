@@ -1,10 +1,12 @@
 package me.peakim.marveldc;
 
-import Spiderman.Mainspiderman;
-import Superman.Mainsuperman;
-import me.peakim.marveldc.Hulk.HulkJump;
-import me.peakim.marveldc.Hulk.MainHulk;
-import me.peakim.marveldc.IceMan.Icemanjump;
+import me.peakim.Commands.reloadcommand;
+import me.peakim.Events.itemdrop;
+import me.peakim.Heroes.Spiderman.Mainspiderman;
+import me.peakim.Heroes.Superman.Mainsuperman;
+import me.peakim.Heroes.Hulk.HulkJump;
+import me.peakim.Heroes.Hulk.MainHulk;
+import me.peakim.Heroes.IceMan.Icemanjump;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 

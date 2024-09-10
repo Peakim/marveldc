@@ -1,8 +1,6 @@
-package me.peakim.marveldc.Hulk;
+package me.peakim.Heroes.Hulk;
 
-import io.papermc.paper.chat.ChatFormatter;
 import org.bukkit.*;
-import org.bukkit.block.Block;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -11,14 +9,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.LeatherArmorMeta;
 import org.bukkit.inventory.meta.SkullMeta;
-import org.bukkit.plugin.Plugin;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-import org.bukkit.scheduler.BukkitScheduler;
-import org.bukkit.util.RayTraceResult;
-import org.bukkit.util.Vector;
-
-import java.security.interfaces.EdECPublicKey;
 
 
 public class MainHulk  implements CommandExecutor {
@@ -78,7 +70,7 @@ public class MainHulk  implements CommandExecutor {
                     bazikon.sendMessage(ChatColor.GREEN + "You Are Hulk!");
                     bazikon.sendMessage(ChatColor.GREEN + "You have Hulk Jump & Clothes & Damage!");
                     bazikon.addPotionEffect(new PotionEffect(PotionEffectType.JUMP, 1000, 5));
-                    bazikon.addPotionEffect((new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 1000, 5)));
+                    bazikon.addPotionEffect((new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 1000, 3)));
                     bazikon.addPotionEffect(new PotionEffect(PotionEffectType.FAST_DIGGING, 1000, 250));
 
                     // bezarim yadam nare chejur item bedam: bazikon.getInventory().addItem(new ItemStack(Material.DIRT,64));

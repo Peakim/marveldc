@@ -1,4 +1,4 @@
-package Superman;
+package me.peakim.Heroes.Superman;
 
 import org.bukkit.*;
 import org.bukkit.enchantments.Enchantment;
@@ -7,7 +7,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerToggleSneakEvent;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.inventory.meta.LeatherArmorMeta;
 import org.bukkit.inventory.meta.SkullMeta;
 import org.bukkit.potion.PotionEffect;
@@ -56,7 +55,7 @@ public class Mainsuperman implements Listener {
 
 
 
-        if (bazikon.hasPermission("Superman.use")) {
+        if (bazikon.hasPermission("me.peakim.Heroes.Superman.use")) {
             // Add kardan effect vaghti shift migire
             if (!bazikon.isSneaking()) {
                 bazikon.addPotionEffect(new PotionEffect(PotionEffectType.LEVITATION, 50000, 10));
