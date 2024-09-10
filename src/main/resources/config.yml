@@ -1,0 +1,6 @@
+# You can put a cooldown on the execution of the [/spiderman] command.
+# Time is in milliseconds!
+# Every 100 Miliseconds is 1 second.
+# Put 0 to disable cooldown.
+spiderman-cooldown: 400
+Iceman-icedistance: 5

@@ -1,0 +1,14 @@
+name: Marveldc
+version: '${project.version}'
+main: me.peakim.marveldc.Marveldc
+api-version: '1.16'
+commands:
+  hulk:
+    description: Become Hulk!
+    usage: /<command>
+  spiderman:
+    description: Become Spiderman
+    usage: /<command>
+  Marveldc-reload:
+    description: reload plugin
+    usage: /<command>
